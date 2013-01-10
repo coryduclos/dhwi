@@ -69,7 +69,7 @@ header a:visited {color:#892F2A;;}
 header a:hover {color:#892F2A;;}
 header a:focus {color:#892F2A;;}
 header a:active {color:#892F2A;;}
-header a:{
+header a{
 	font-size: 10px;
 }
 
@@ -78,7 +78,7 @@ table a:visited {color:#fff;}
 table a:hover {color:#fff;}
 table a:focus {color:#fff;}
 table a:active {color:#fff;}
-table a:{
+table a{
 	font-size: 40px;
 }
 
