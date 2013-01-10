@@ -14,24 +14,33 @@
 
 
  html {
- 	background-color: #f5f5ed;
-
+ 	background-color: #f2d18a;
  }
+
+ /*HEADER*/
 
  header {
- 	background-color: #f5f5ed;
- 	color:#F2D18A;
+ 	background-color: #f2d18a;
  	border: 2px;
  	padding:20px;
- 	bottom border:3px solid #ccc;
+ 	border-bottom:3px solid #F2D18A;
+ 	text-align: center;
  }
 
+ header h1 {
+ 	color:#fff;
+ 	font-size: 50px;
+ }
+
+ /*body*/
+
 body {
+	font-family: Verdana, sans-serif;
 	width:70%;
 	margin: 20px auto;
-	background-color: #fff;
+	background-color: #f2d18a;
 	padding: 20px 40px;
-	border: 3px solid #ccc;
+	border: 3px solid #F2D18A;
 }
 
 nav ul {
@@ -44,8 +53,59 @@ nav li {
 	display:inline;
 }
 
-header a:link {color: #fff;}
-header a:visited {color:#fff;}
-header a:hover {color: #fff;}
-header a:focus {color:#fff;}
-header a:active {color:#fff;}
+nav a {opacity: 0.6;}
+
+/*Links*/
+
+header a:link {color:#892F2A;}
+header a:visited {color:#892F2A;;}
+header a:hover {color:#892F2A;;}
+header a:focus {color:#892F2A;;}
+header a:active {color:#892F2A;;}
+
+a:-webkit-any-link {
+	color:#892F2A;
+	font-size: 12px;
+
+}
+
+/*Table*/
+
+table {
+	width: 100%;
+	background-color: #ccc;
+
+}
+
+th,
+td {
+	padding:5px 0;
+
+
+}
+
+thead th {
+	border-bottom: 2px solid #fff;
+	text-align:left;
+}
+
+tbody tr {
+	background-color: #eee;
+
+
+}
+
+tbody tr:nth-child(even) {
+	background-color: #fff;
+}
+
+table a:link {color:#fff}
+table a:visited {color:#fff;}
+table a:hover {color:#fff;}
+table a:focus {color:#fff;}
+table a:active {color:#fff;}
+table a {
+	font-size: 30px;
+
+}
+
