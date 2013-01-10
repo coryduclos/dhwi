@@ -14,33 +14,40 @@
 
 
  html {
- 	background-color: #f2d18a;
+ 	background-color: #eec367;
  }
 
  /*HEADER*/
 
  header {
- 	background-color: #f2d18a;
+ 	background-color: #eec367;
  	border: 2px;
  	padding:20px;
- 	border-bottom:3px solid #F2D18A;
  	text-align: center;
+ 	margin: 60px 0 30px 0
  }
 
  header h1 {
  	color:#fff;
  	font-size: 50px;
+ 	font-weight: 700;
+ 	font-family: 'Ribeye', cursive; Verdana;
  }
 
  /*body*/
 
 body {
-	font-family: Verdana, sans-serif;
+	font-family: Verdana; san-serif;
 	width:70%;
 	margin: 20px auto;
-	background-color: #f2d18a;
+	background-color: #eec367;
 	padding: 20px 40px;
-	border: 3px solid #F2D18A;
+}
+
+body h1 {
+	color:#fff;
+	text-align: center;
+	font-family: 'Ribeye', cursive; Verdana;
 }
 
 nav ul {
@@ -62,41 +69,8 @@ header a:visited {color:#892F2A;;}
 header a:hover {color:#892F2A;;}
 header a:focus {color:#892F2A;;}
 header a:active {color:#892F2A;;}
-
-a:-webkit-any-link {
-	color:#892F2A;
-	font-size: 12px;
-
-}
-
-/*Table*/
-
-table {
-	width: 100%;
-	background-color: #ccc;
-
-}
-
-th,
-td {
-	padding:5px 0;
-
-
-}
-
-thead th {
-	border-bottom: 2px solid #fff;
-	text-align:left;
-}
-
-tbody tr {
-	background-color: #eee;
-
-
-}
-
-tbody tr:nth-child(even) {
-	background-color: #fff;
+header a:{
+	font-size: 10px;
 }
 
 table a:link {color:#fff}
@@ -104,8 +78,34 @@ table a:visited {color:#fff;}
 table a:hover {color:#fff;}
 table a:focus {color:#fff;}
 table a:active {color:#fff;}
-table a {
-	font-size: 30px;
+table a:{
+	font-size: 40px;
+}
+
+
+
+/*Table*/
+
+table {
+	width: 100%;
+	background-color: #eec367;
+}
+
+th,
+td {
+	padding:5px 0;
 
 }
+
+thead th {
+	text-align:center;
+	font-size: 30px;
+	color: #fff;
+}
+
+
+
+
+
+
 
