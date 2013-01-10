@@ -31,13 +31,13 @@
  	color:#fff;
  	font-size: 50px;
  	font-weight: 700;
- 	font-family: 'Ribeye', cursive; Verdana;
+ 	font-family: 'Ribeye', cursive, Verdana;
  }
 
  /*body*/
 
 body {
-	font-family: Verdana; san-serif;
+	font-family: Verdana, san-serif;
 	width:70%;
 	margin: 20px auto;
 	background-color: #eec367;
@@ -47,7 +47,7 @@ body {
 body h1 {
 	color:#fff;
 	text-align: center;
-	font-family: 'Ribeye', cursive; Verdana;
+	font-family: 'Ribeye', cursive, Verdana;
 }
 
 nav ul {
